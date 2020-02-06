@@ -277,16 +277,16 @@ a:hover {
 
 /*------/ Owl Carousel /------*/
 
-.owl-theme .owl-dots {
+.testimonials .owl-theme .owl-dots {
   text-align: center;
   margin-top: 18px;
 }
 
-.owl-theme .owl-dots .owl-dot {
+.testimonials .owl-theme .owl-dots .owl-dot {
   display: inline-block;
 }
 
-.owl-theme .owl-dots .owl-dot span {
+.testimonials .owl-theme .owl-dots .owl-dot span {
   width: 18px;
   height: 7px;
   margin: 5px 5px;
@@ -297,11 +297,11 @@ a:hover {
   cursor: pointer;
 }
 
-.owl-theme .owl-dots .owl-dot:hover span {
+.testimonials .owl-theme .owl-dots .owl-dot:hover span {
   background-color: #cde1f8;
 }
 
-.owl-theme .owl-dots .owl-dot.active span {
+.testimonials .owl-theme .owl-dots .owl-dot.active span {
   background-color: #1B1B1B;
   width: 25px;
 }
@@ -700,7 +700,7 @@ a:hover {
 /*   Services
 /*-----------------------------------------------------------------------------------*/
 
-#services {
+#skills {
   position: relative;
   padding-bottom: 80px;
 }
@@ -708,7 +708,7 @@ a:hover {
 .owl-item {
   float: left;
 }
-.services-block span {
+.skills-block span {
   margin: 10px 0;
   position: relative;
   font-size: 13px;
@@ -719,42 +719,42 @@ a:hover {
   display: block;
 }
 
-.services-block .separator {
+.skills-block .separator {
   margin: 0;
   font-size: 13px;
   line-height: 22px;
 }
 
-.services-block i {
+.skills-block i {
   font-size: 44px;
   color: #0078ff;
   line-height: 44px;
 }
 
 
-.services-carousel  .owl-stage-outer {
+.skills-carousel  .owl-stage-outer {
   overflow: hidden;
 }
 
-.services-carousel .owl-dots {
+.skills-carousel .owl-dots {
   margin-top: 30px;
   text-align: center;
 }
 
-.services-carousel .owl-dot {
+.skills-carousel .owl-dot {
   display: inline-block;
-  margin: 0 5px;
-  width: 12px !important;
-  height: 12px !important;
-  border-radius: 50%;
-  border: 0;
-  padding: 0 !important;
-  background-color: #EEE5E5;
+  width: 15px;
+  height: 5px;
+  margin: 3px 3px;
+  background: #cde1f8;
+  border: 0px solid #cde1f8;
+  transition: all 0.6s ease-in-out;
   cursor: pointer;
 }
 
-.services-carousel .owl-dot.active {
-  background-color: #0078ff;
+.skills-carousel .owl-dot.active {
+  background-color: #1B1B1B;
+  width: 25px;
 }
 
 .owl-nav {

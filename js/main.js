@@ -115,7 +115,7 @@
 		}
 	});
 
-	$('.services-carousel').owlCarousel({
+	$('.skills-carousel').owlCarousel({
 		autoplay: true,
 		loop: true,
 		margin: 20,
