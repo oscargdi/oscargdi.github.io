@@ -200,8 +200,19 @@ a:hover {
 }
 
 /*------/ Socials /------*/
+.about-socials ul{
+  text-align: center;
+  padding: 0 0 0 0;
+}
+
+.about-socials ul li{
+  display: inline-block;
+  font-size: 1.5rem;
+  padding: 0px 10px 0px 10px;
+}
 
 .socials {
+  text-align: center;
   padding: 1.5rem 0;
 }
 
