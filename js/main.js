@@ -117,6 +117,7 @@
 
 	$('.skills-carousel').owlCarousel({
 		autoplay: true,
+		autoplayTimeout: 7000,
 		loop: true,
 		margin: 20,
 		dots: true,
