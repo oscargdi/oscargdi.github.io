@@ -710,7 +710,8 @@ a:hover {
 
 #skills {
   position: relative;
-  padding-bottom: 80px;
+  padding-top: 30px;
+  padding-bottom: 50px;
 }
 
 .owl-item {
@@ -745,7 +746,7 @@ a:hover {
 }
 
 .skills-carousel .owl-dots {
-  margin-top: 30px;
+  margin-top: 20px;
   text-align: center;
 }
 
