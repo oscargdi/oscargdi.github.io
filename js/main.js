@@ -117,13 +117,13 @@
 
 	$('.skills-carousel').owlCarousel({
 		autoplay: true,
-		autoplayTimeout: 7000,
+		autoplayTimeout: 10000,
 		loop: true,
 		margin: 20,
 		dots: true,
 		nav: false,
 		responsiveClass: true,
-		responsive: { 0: { items: 1 } }
+		responsive: { 0: { items: 1 }, 768: { items: 2 } }
 	});
 
 })(jQuery);

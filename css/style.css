@@ -690,6 +690,10 @@ a:hover {
 //--//-->   ABOUT
 ======================================*/
 
+.about-info{
+  text-align: center;
+}
+
 .about-mf .box-shadow-full {
   padding-top: 4rem;
   padding-bottom: 4rem;
