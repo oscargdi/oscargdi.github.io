@@ -694,6 +694,10 @@ a:hover {
   text-align: center;
 }
 
+.about-me{
+  text-align: justify;
+}
+
 .about-mf .box-shadow-full {
   padding-top: 4rem;
   padding-bottom: 4rem;
@@ -721,6 +725,11 @@ a:hover {
 .owl-item {
   float: left;
 }
+
+.skills-block{
+  text-align: justify;
+}
+
 .skills-block span {
   margin: 10px 0;
   position: relative;
