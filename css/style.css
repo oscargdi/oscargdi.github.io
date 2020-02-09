@@ -734,7 +734,7 @@ ul.timeline > li {
   margin: 0 0 3em 0;
   padding-left: 10px;
 }
-ul.timeline > li:before {
+ul.timeline .service-box:before {
   content: ' ';
   background: white;
   display: inline-block;
@@ -825,7 +825,7 @@ ul.timeline > li:before {
 
 .service-box {
   background-color: #fff;
-  padding: 1.5rem 1.3rem 1.5rem 1.3rem;
+  padding: 1.5rem 2.0rem 1.5rem 1.5rem;
   border-radius: 1rem;
 }
 
@@ -848,15 +848,21 @@ ul.timeline > li:before {
 }
 
 .service-box .s-title {
-  font-size: 1.4rem;
+  color: black;
+  font-size: 1.5rem;
   text-transform: uppercase;
   text-align: left;
   padding: .4rem 0;
+  font-weight: 500;
 }
 
 .service-box .s-description {
   color: #4e4e4e;
   text-align: justify;
+}
+
+.position-title{
+  margin-bottom: 0.5em;
 }
 
 /*======================================
