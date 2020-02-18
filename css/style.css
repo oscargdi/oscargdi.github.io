@@ -847,12 +847,16 @@ ul.timeline .service-box:before {
   font-size: 4rem;
 }
 
+.service-box .service-position {
+  margin-bottom: 2rem;
+}
+
 .service-box .s-title {
   color: black;
-  font-size: 1.5rem;
+  font-size: 2rem;
   text-transform: uppercase;
   text-align: left;
-  padding: .4rem 0;
+  margin-bottom: 1rem;
   font-weight: 500;
 }
 
@@ -864,6 +868,7 @@ ul.timeline .service-box:before {
 .position-title{
   margin-bottom: 0.5em;
 }
+
 
 /*======================================
 //--//-->   COUNTER
