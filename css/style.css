@@ -837,9 +837,14 @@ ul.timeline .service-box:before {
 }
 
 .service-box .service-ico {
+  text-align: center;
   margin-top: 1rem;
   margin-bottom: 2rem;
   color: #1e1e1e;
+}
+
+.service-box img {
+  max-width: 50%;
 }
 
 .service-box .ico-circle {
